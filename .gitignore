@@ -1,0 +1,14 @@
+# Never commit credentials
+sa-key.json
+*.json
+!package.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# GCP
+.gcp/
